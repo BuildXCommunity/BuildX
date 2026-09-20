@@ -6,212 +6,377 @@
 
   <title>Join BuildX</title>
 
-  <meta
-    name="description"
-    content="Join the BuildX community and start exploring, building and growing."
-  >
-
   <link rel="stylesheet" href="style.css">
-
-  <style>
-    .form-wrap {
-      max-width: 1000px;
-      margin: 2rem auto 4rem;
-      padding: 0 1rem;
-    }
-
-    .form-card {
-      background: rgba(255, 255, 255, 0.96);
-      border: 1px solid rgba(108, 99, 217, 0.16);
-      border-radius: 24px;
-      overflow: hidden;
-      box-shadow: 0 18px 50px rgba(30, 41, 59, 0.10);
-    }
-
-    .form-card iframe {
-      display: block;
-      width: 100%;
-      min-height: 1500px;
-      border: 0;
-    }
-
-    .fallback {
-      text-align: center;
-      padding: 1.5rem;
-      background: #f8f7ff;
-    }
-
-    .fallback p {
-      margin-bottom: 0.75rem;
-    }
-
-    .fallback a {
-      display: inline-block;
-      margin-top: 0.75rem;
-      padding: 0.8rem 1.2rem;
-      border-radius: 999px;
-      text-decoration: none;
-      font-weight: 700;
-      background: #6c63d9;
-      color: white;
-    }
-
-    .fallback a:hover {
-      opacity: 0.9;
-    }
-  </style>
 </head>
 
 <body>
 
-  <!-- ================= HEADER ================= -->
-
+  <!-- HEADER -->
   <header class="site-header">
-
     <div class="container nav-wrap">
 
-      <a
-        class="brand"
-        href="index.html"
-        aria-label="BuildX home"
-      >
-
-        <img
-          src="assets/logo-mark.svg"
-          alt=""
-          class="brand-mark"
-        >
-
-        <span>
+      <a href="index.html" class="brand">
+        <span class="brand-mark">✦</span>
+        <span class="brand-name">
           Build<span class="brand-x">X</span>
         </span>
-
       </a>
 
-
-      <nav
-        class="nav-links"
-        aria-label="Main navigation"
-      >
-
-        <a href="index.html">
-          Home
-        </a>
-
-        <a href="challenges.html">
-          Challenges
-        </a>
-
-        <a href="showcase.html">
-          Showcase
-        </a>
-
-        <a href="about.html">
-          About
-        </a>
-
-        <a
-          class="active"
-          href="join.html"
-        >
-          Join
-        </a>
-
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="challenges.html">Challenges</a>
+        <a href="showcase.html">Showcase</a>
+        <a href="about.html">About</a>
+        <a href="join.html" class="active">Join</a>
       </nav>
 
     </div>
-
   </header>
 
 
-  <!-- ================= MAIN CONTENT ================= -->
-
+  <!-- HERO -->
   <main>
 
     <section class="hero">
+      <div class="container hero-copy">
 
-      <div class="container">
-
-        <p class="eyebrow">
-          BUILDX COMMUNITY
-        </p>
-
+        <div class="eyebrow">
+          BUILD WITH US
+        </div>
 
         <h1>
           Join the builders.
         </h1>
 
-
         <p class="hero-subtitle">
-          Explore ✦ Build ✦ Grow
-        </p>
-
-
-        <p class="hero-copy">
-
-          Join BuildX to participate in challenges,
-          buildathons, project showcases, learning
-          opportunities and future community activities.
-
+          Explore ideas, build real projects, collaborate with other
+          students, and grow with the BuildX community.
         </p>
 
       </div>
-
     </section>
 
 
-    <!-- ================= GOOGLE FORM ================= -->
+    <!-- JOIN CARD -->
+    <section class="join-section">
+      <div class="container">
 
-    <div class="form-wrap">
+        <div class="join-card">
 
-      <div class="form-card">
+          <div class="join-icon">
+            ✦
+          </div>
 
-        <iframe
-          src="https://docs.google.com/forms/d/e/1FAIpQLSejNdqGbI6tsIMmUOuRSM01CTaoqpdeuEkQB9PARzF-L8LqbA/viewform"
-          title="Join BuildX registration form"
-          loading="lazy">
-        </iframe>
+          <div class="join-content">
 
+            <p class="join-label">
+              BUILDX COMMUNITY
+            </p>
 
-        <!-- Backup link if iframe doesn't load -->
+            <h2>
+              Your next build could start here.
+            </h2>
 
-        <div class="fallback">
+            <p>
+              Join the BuildX community and stay connected with
+              upcoming challenges, buildathons, project showcases,
+              learning opportunities, and community activities.
+            </p>
 
-          <p>
-            Having trouble loading the form?
-          </p>
+            <div class="join-points">
 
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSejNdqGbI6tsIMmUOuRSM01CTaoqpdeuEkQB9PARzF-L8LqbA/viewform"
-            target="_blank"
-            rel="noopener"
-          >
-            Open Join BuildX Form
-          </a>
+              <div class="join-point">
+                <span>✓</span>
+                <span>Participate in challenges</span>
+              </div>
+
+              <div class="join-point">
+                <span>✓</span>
+                <span>Build and showcase projects</span>
+              </div>
+
+              <div class="join-point">
+                <span>✓</span>
+                <span>Collaborate with other builders</span>
+              </div>
+
+              <div class="join-point">
+                <span>✓</span>
+                <span>Discover future BuildX opportunities</span>
+              </div>
+
+            </div>
+
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSejNdqGbI6tsIMmUOuRSM01CTaoqpdeuEkQB9PARzF-L8LqbA/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="join-button"
+            >
+              Join BuildX
+              <span>→</span>
+            </a>
+
+            <p class="join-note">
+              You'll be taken to the official BuildX registration form.
+            </p>
+
+          </div>
 
         </div>
 
       </div>
-
-    </div>
+    </section>
 
   </main>
 
 
-  <!-- ================= FOOTER ================= -->
-
+  <!-- FOOTER -->
   <footer class="site-footer">
-
     <div class="container">
 
-      <p>
-        BuildX — Explore ✦ Build ✦ Grow
-      </p>
+      <div>
+        <strong>BuildX</strong>
+        <span>Explore ✦ Build ✦ Grow</span>
+      </div>
+
+      <div>
+        © <span id="year"></span> BuildX Community
+      </div>
 
     </div>
-
   </footer>
 
+
+  <script src="script.js"></script>
+
+  <style>
+
+    /* ================================
+       JOIN PAGE ONLY
+       ================================ */
+
+    .join-section {
+      padding: 20px 0 90px;
+    }
+
+    .join-card {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 55px 60px;
+      border-radius: 28px;
+
+      background:
+        linear-gradient(
+          135deg,
+          rgba(255,255,255,0.98),
+          rgba(248,245,255,0.98)
+        );
+
+      border: 1px solid rgba(100, 80, 180, 0.12);
+
+      box-shadow:
+        0 20px 60px rgba(40, 30, 80, 0.08);
+
+      position: relative;
+      overflow: hidden;
+    }
+
+    .join-card::before {
+      content: "";
+      position: absolute;
+      width: 280px;
+      height: 280px;
+      border-radius: 50%;
+      background: rgba(180, 140, 255, 0.10);
+      top: -150px;
+      right: -100px;
+      pointer-events: none;
+    }
+
+    .join-card::after {
+      content: "";
+      position: absolute;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: rgba(255, 170, 210, 0.08);
+      bottom: -130px;
+      left: -90px;
+      pointer-events: none;
+    }
+
+    .join-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .join-icon {
+      width: 58px;
+      height: 58px;
+      border-radius: 18px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-bottom: 25px;
+
+      font-size: 25px;
+
+      color: white;
+
+      background:
+        linear-gradient(
+          135deg,
+          #477db5,
+          #8f70d8,
+          #ef9fc5
+        );
+
+      box-shadow:
+        0 10px 25px rgba(120, 90, 190, 0.20);
+    }
+
+    .join-label {
+      margin: 0 0 10px;
+
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 2px;
+
+      color: #7564a8;
+    }
+
+    .join-card h2 {
+      margin: 0 0 16px;
+
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1.1;
+
+      color: #17233c;
+    }
+
+    .join-card p {
+      max-width: 680px;
+
+      font-size: 16px;
+      line-height: 1.7;
+
+      color: #657087;
+    }
+
+    .join-points {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+
+      gap: 14px;
+
+      margin: 30px 0;
+    }
+
+    .join-point {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      font-size: 14px;
+      color: #39445b;
+    }
+
+    .join-point span:first-child {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 23px;
+      height: 23px;
+
+      flex-shrink: 0;
+
+      border-radius: 50%;
+
+      background: #eee9ff;
+      color: #7258b8;
+
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    .join-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+
+      margin-top: 8px;
+
+      padding: 14px 24px;
+
+      border-radius: 12px;
+
+      text-decoration: none;
+
+      font-size: 15px;
+      font-weight: 700;
+
+      color: white;
+
+      background:
+        linear-gradient(
+          135deg,
+          #477db5,
+          #7864c7,
+          #d982b2
+        );
+
+      box-shadow:
+        0 10px 25px rgba(100, 80, 170, 0.20);
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .join-button:hover {
+      transform: translateY(-2px);
+
+      box-shadow:
+        0 14px 30px rgba(100, 80, 170, 0.28);
+    }
+
+    .join-button span {
+      font-size: 19px;
+    }
+
+    .join-note {
+      margin-top: 14px !important;
+
+      font-size: 12px !important;
+      color: #8991a3 !important;
+    }
+
+
+    /* MOBILE */
+
+    @media (max-width: 700px) {
+
+      .join-card {
+        padding: 38px 25px;
+        border-radius: 22px;
+      }
+
+      .join-points {
+        grid-template-columns: 1fr;
+      }
+
+      .join-button {
+        width: 100%;
+        justify-content: center;
+      }
+
+    }
+
+  </style>
 
 </body>
 </html>
